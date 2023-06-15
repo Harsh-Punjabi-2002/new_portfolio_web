@@ -1,3 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 img{
     border-radius: 50px;
 }
+
+nav ul{
+    list-style: none;
+    text-align: end;
+    padding: 30px;
+    background-color: cyan;
+}
+
+nav li{
+    display: inline;
+    padding: 20px;
+    
+}
+
+nav li:hover{
+    cursor: grab;
+}
+
+header{
+    background-color: yellow;
+}
+
+/* .nav_element:hover{
+    color: red;
+    cursor: pointer;
+} */
+
+/* #education{
+    padding: 150px;
+} */
