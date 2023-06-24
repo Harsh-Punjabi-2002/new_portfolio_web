@@ -1,31 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: rgb(84, 9, 9);
     color: white;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
-    align-items:center ;
+    align-items: center;
     height: 80px;
     background-color: rgb(103, 11, 11);
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: center;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin: 0 23px;
 }
 
-.left{
+.left {
     font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+
+
+.firstsection div {
+    width: 30%
+}
+
+.leftsection {
+    width: 34px;
+    background-color: rgb(209, 209, 20);
 }
