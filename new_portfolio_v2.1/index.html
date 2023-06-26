@@ -14,11 +14,11 @@
             <div class="left">Harsh's Portfolio</div>
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Education</li>
-                    <li>Project</li>
-                    <li>Contact Me</li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Education</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -29,14 +29,27 @@
             <div class="leftsection">
                 Hi! My name is <span class="purple">Harsh</span>
                 <div>and I am a passionate </div>
-                <div class="purple">Web Developer</div>
+                <span id="element" class="purple"></span>
             </div>
             <div class="rightsection">
                 <img src="https://avatars.githubusercontent.com/u/89394681?s=400&u=6f07a76ed7c927eb9b4c7c5cc41d7b8980e7399b&v=4"
                     alt="harsh_img">
             </div>
-        </section> 
+        </section>
+        <section class="secondsection">
+            <!-- <h1>Past Experience</h1> -->
+        </section>
     </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Problem Solver'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
 </body>
 
 </html>

@@ -13,7 +13,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     height: 80px;
-    background-color: rgb(18,18,62);
+    background-color: rgb(18, 18, 62);
 }
 
 nav ul {
@@ -21,9 +21,19 @@ nav ul {
     justify-content: center;
 }
 
-nav li {
+nav ul li {
     list-style: none;
     margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: aquamarine;
+    font-size: 1.02rem;
 }
 
 .left {
@@ -38,20 +48,24 @@ nav li {
 }
 
 
-.firstsection > div {
+.firstsection>div {
     width: 30%
 }
 
 .leftsection {
-    margin: 70px 0;
+    /* margin: 70px 0; already verticaly centre done  */
     /* background-color: rgb(209, 209, 20); */
     font-size: 3rem;
 }
 
-.rightsection{
+.rightsection {
     width: 80%;
 }
 
-.purple{
-    color: rgb(170,107,228);
+img {
+    border-radius: 10rem;
+}
+
+.purple {
+    color: rgb(170, 107, 228);
 }
