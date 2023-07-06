@@ -77,11 +77,23 @@ img {
     color: rgb(170, 107, 228);
 }
 
-.secondsection {
+/* .secondsection {
     max-width: 80vw;
     margin: auto;
-}
+} */
 
 .secondsection h1{
     font-size: 1.9rem;
+}
+
+.secondsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 117px 0;
+}
+
+.leftpara{
+    font-size: 10px;
+    color: azure;
 }
