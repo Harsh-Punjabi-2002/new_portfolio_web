@@ -93,7 +93,16 @@ img {
     margin: 117px 0;
 }
 
+.secondsection div {
+    background-color: black;
+}
+
 .leftpara{
-    font-size: 10px;
-    color: azure;
+    /* font-size: 10px; */
+    background-color: black;
+}
+
+p {
+    width: 60vw;
+    font-size: 1.2rem;
 }
