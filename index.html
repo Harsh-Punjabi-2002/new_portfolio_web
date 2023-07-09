@@ -3,147 +3,124 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harsh's Portfolio</title>
+    <title>Harsh-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="images/favicon2.ico" type="image/x-icon">
-    <link rel="stylesheet" href="srtyle.css">
 </head>
 
 <body>
     <header>
-
         <nav>
-            <ul> <!-- ul>li*4>a --> <!--div uske andar a bas-->
-                <li><button><a href="#education">Education</a></button></li>
-                <li><button><a href="#internship">Internship</a></button></li>
-                <li><button><a href="#projects">Projects</a></button></li>
-                <li><button><a href="#connect">connect</a></button></li>
-            </ul>
+            <div class="left">Harsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#edu">Education</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
         </nav>
-
-        <!-- <div class="container">
-            <img class="img1" src="https://avatars.githubusercontent.com/u/89394681?v=4" alt="harsh's img">
-            <h1>Harsh Punjabi</h1>
-            <p><i>coding enthusiast </i> 😎</p>
-            <p>student at Birla Institute Of Technology </p>
-        </div> -->
-        <table>
-            <tr>
-                <td><img class="img1" width="300" src="https://avatars.githubusercontent.com/u/89394681?v=4"
-                        alt="harsh's img"></td>
-                <td>
-                    <h1>Harsh Punjabi</h1>
-                    <p><i>coding enthusiast </i> 😎</p>
-                    <p>student at Birla Institute Of Technology </p>
-                </td>
-            </tr>
-        </table>
-        <hr>
     </header>
 
-    <!--header ends -->
-
     <main>
-        <Section id="education">
-            <h2>Education</h2>
-            <table border="">
-                <tr>
-                    <th>course</th>
-                    <th>college</th>
-                    <th>year</th>
-                    <th>result</th>
-                </tr>
-                <tr>
-                    <td>BTECH-EEE</td>
-                    <td>Birla Institute of Technology mesra</td>
-                    <td>2020-2024</td>
-                    <td>8.29</td>
-                </tr>
-                <tr>
-                    <td>12</td>
-                    <td>ryan</td>
-                    <td>2020</td>
-                    <td>86%</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>ryan</td>
-                    <td>2018</td>
-                    <td>87%</td>
-                </tr>
-            </table>
-            <hr>
-        </Section>
-
-        <section id="internship">
-            <h2>Internship</h2>
-            <article>
-                <p><strong>ECE SOCIETY</strong></p>
-                <P><em>Growth lead intern at ece society of bit mesra </em> </P>
-                <ul>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque tempore, illo aperiam
-                        accusamus,
-                        cupiditate facere voluptates quae ipsum maxime architecto odio temporibus expedita voluptatem
-                        aspernatur
-                        sunt, qui voluptatum possimus quas.</li>
-                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque tempore, illo aperiam
-                        accusamus,
-                        cupiditate facere voluptates quae ipsum maxime architecto odio temporibus expedita voluptatem
-                        aspernatur
-                        sunt, qui voluptatum possimus quas.</li>
-                </ul>
-                <hr>
-            </article>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi! My name is <span class="purple">Harsh</span>
+                <div>and I am a passionate </div>
+                <span id="element" class="purple"></span>    
+                <div class="button">
+                    <button class="btn"><a href="">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/Harsh-Punjabi-2002" target="_blank">Visit GitHub</a></button>
+                </div>
+            </div>
+            
+            <div class="rightsection">
+                <img src="https://avatars.githubusercontent.com/u/89394681?s=400&u=6f07a76ed7c927eb9b4c7c5cc41d7b8980e7399b&v=4"
+                    alt="harsh_img">
+            </div>
         </section>
+        <hr>
 
-        <section id="projects">
-            <h2>Projects</h2>
-            <ul>
-                <li>
-                    <article>
-                        <h3>Intrest Calculator</h3>
-                        <a href="https://harsh-calculator.netlify.app/index.html" target="_blank">click here to
-                            calculate</a>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, id? Ipsa alias adipisci est
-                            mollitia
-                            temporibus excepturi, maiores ipsum optio, quaerat rem molestias minima minus odio,
-                            reiciendis
-                            dolores aliquid veritatis.</p>
-                    </article>
-                </li>
+        <section class="secondsection" id="about">
 
-                <li>
-                    <article>
-                        <h3>something new </h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, id? Ipsa alias adipisci est
-                            mollitia
-                            temporibus excepturi, maiores ipsum optio, quaerat rem molestias minima minus odio,
-                            reiciendis
-                            dolores aliquid veritatis.</p>
-                    </article>
-                </li>
-            </ul>
-            <hr>
+            <div class="lefpara">
+                <h1>About Me</h1>
+                <p>Hi there! I am Harsh! I've been coding for over 4 years now. As a EEE student I've worked both with
+                    managerial(ECE Society) and technical(Coding Ninja , CAB-EEZ) companies to help build &
+                    scale their companies. Along the journey I realised my passion existed in extending help and guiding
+                    others excel and pursue their dreams in technical fields. With this passion, I have now helped
+                    hundred's of associates and subordinates around me, through online sessions on Google Meet, and also
+                    interacting in person. I always look to give back to the community in whichever way possible.
+                </p>
+
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/harsh-punjabi-266770217/" target="_blank"
+                        class="fa fa-linkedin"></a>
+                    <a href="https://github.com/Harsh-Punjabi-2002" target="_blank" class="fa fa-github"></a>
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="images/download.png" alt="harsh_img">
+            </div>
         </section>
+        <hr>
+
+        <section class="theirdsection" id="edu">
+
+        </section>
+        <!-- <hr> -->
+
     </main>
 
-    <!--main section ends -->
-
     <footer>
-        <h2 id="connect">Contact</h2>
-        <ul>
-            <li>contact no : <a href="tel:8080338377"> 8080xxxx77</a></li>
-            <li>email:<a href="mailto:punjabi.harsh2002@gmail.com" target="_blank">punjabi.harsh2002@gmail.com</a></li>
-            <li>leetcode:<a href="https://leetcode.com/Harsh2104/" target="_blank">click me </a></li>
-            <li><a href="contactDetails.html" target="_blank">to contact tell me about yourself</a></li>
-        </ul>
-        <hr>
-        <a href="#"><input type="button" value="back to top"></a>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Harsh's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second"></div>
+            <div class="footer-theird"></div>
+            <div class="footer-fourth"></div>
+        </div>  
     </footer>
 
-    <!--footer ends -->
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Problem Solver'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
 </body>
 
 </html>
