@@ -68,13 +68,13 @@ main hr {
 a {
     color: #FFF;
     text-decoration: none;
-  }
-a:hover 
-  {
-     color: aquamarine;
-  }
+}
 
-.leftsection .button{
+a:hover {
+    color: aquamarine;
+}
+
+.leftsection .button {
     padding: 50px 0;
 }
 
@@ -113,7 +113,8 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 50px 0;
+    margin: 50px 50px 50px -125px;
+    padding: 0 0 70px 0;
 }
 
 /* .secondsection div {
@@ -140,8 +141,8 @@ img {
 
 .social {
     display: flex;
-    margin: 30px;
-    
+    margin: 50px;
+
 }
 
 /* .social a {
@@ -210,12 +211,39 @@ img {
     -moz-osx-font-smoothing: grayscale
 }
 
-footer{
+footer {
     background-color: #0e0e1a;
     height: 233px;
 }
 
-.footer{
+.footer {
     display: flex;
     margin: 23px 122px;
+}
+
+/* .theirdsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+} */
+
+.column {
+    float: left;
+    width: 25%;
+    margin: 100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 20px;
+}
+
+.theirdsection h1 {
+    width: 60vw;
+    margin: 0 104px;
+    font-size: 2.5rem;
 }
