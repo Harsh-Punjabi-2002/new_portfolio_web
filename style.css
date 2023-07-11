@@ -94,6 +94,7 @@ a:hover {
 
 img {
     border-radius: 10rem;
+    width: 390px;
 }
 
 .purple {
@@ -104,10 +105,6 @@ img {
     max-width: 80vw;
     margin: auto;
 } */
-
-.secondsection h1 {
-    font-size: 1.9rem;
-}
 
 .secondsection {
     display: flex;
@@ -126,17 +123,18 @@ img {
     background-color: black;
 } */
 
-.secondsection p {
-    width: 60vw;
-    font-size: 1.2rem;
-    margin: 47px;
-    padding: 25px;
-}
-
 .secondsection h1 {
     width: 60vw;
-    margin: 75px;
+    margin: 23px 0px 0px 70px;
     /* padding: 25px; */
+    font-size: 2.3rem;
+}
+
+.secondsection p {
+    width: 60vw;
+    font-size: 1.6rem;
+    margin: 47px;
+    padding: 25px;
 }
 
 .social {
@@ -155,13 +153,13 @@ img {
 } */
 
 /* Style all font awesome icons */
-.fa {
-    padding: 30px;
-    font-size: 10px;
-    width: 30px;
+.social .fa {
+    padding: 31px;
+    font-size: 30px;
+    width: 34px;
     text-align: center;
     text-decoration: none;
-    border-radius: 40%;
+    border-radius: 44%;
     margin: 20px;
 }
 
@@ -211,6 +209,56 @@ img {
     -moz-osx-font-smoothing: grayscale
 }
 
+
+.theirdsection {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+
+.column {
+    float: left;
+    width: 20%;
+    margin: 39px 83px 38px 103px;
+    /* padding: 75px; */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 20px;
+}
+
+.theirdsection h1 {
+    width: 60vw;
+    margin: 0 104px;
+    font-size: 2.5rem;
+}
+
+.theirdsection{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
     background-color: #0e0e1a;
     height: 233px;
@@ -227,23 +275,3 @@ footer {
     align-items: center;
     margin: 50px 0;
 } */
-
-.column {
-    float: left;
-    width: 25%;
-    margin: 100px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-    margin: 20px;
-}
-
-.theirdsection h1 {
-    width: 60vw;
-    margin: 0 104px;
-    font-size: 2.5rem;
-}
