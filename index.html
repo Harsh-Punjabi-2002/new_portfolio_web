@@ -3,153 +3,301 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harsh-Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title> Harsh-Portfolio </title>
+
     <link rel="shortcut icon" href="images/favicon2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+
+
+
+    <!-- Box - icons -->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="left">Harsh's Portfolio</div>
-            <div class="right">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#edu">Education</a></li>
-                    <li><a href="/">Project</a></li>
-                    <li><a href="/">Contact Me</a></li>
-                </ul>
-            </div>
+
+    <!---Header Design-->
+    <header class="header">
+        <a href="#" class="logo">Harsh Punjabi </span></a>
+
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span>
+
+        </div>
+        <!---Nav Bar-->
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+            <span class="active-nav"></span>
         </nav>
     </header>
 
-    <main>
-        <section class="firstsection">
-            <div class="leftsection">
-                Hi! My name is <span class="purple">Harsh</span>
-                <div>and I am a passionate </div>
-                <span id="element" class="purple"></span>
-                <div class="button">
-                    <button class="btn"><a href="https://drive.google.com/file/d/1q3MauAdXl-9bWn4OTl-bx5ma9iQSGjtF/view"
-                            target="_blank">Download Resume</a></button>
-                    <button class="btn"><a href="https://github.com/Harsh-Punjabi-2002" target="_blank">Visit
-                            GitHub</a></button>
+    <!--Home Section Design-->
+
+
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Harsh Punjabi </span> </h1>
+            <div class="text-animate">
+                <h3>FrontEnd Developer</h3>
+            </div>
+            <p> UnderGraduate at THE BIT , Mesra . <br>Front-End Developer , Cpp Programmer
+            </p>
+            <div class="btn-box">
+                <a href="https://www.linkedin.com/in/harsh-punjabi-266770217/" class="btn">Hire Me</a>
+                <a href="https://drive.google.com/file/d/1dPcxLWEKlmsScN_sE0DoxG50VJm8FEF6/view?usp=drivesdk"
+                    class="btn">Download CV</a>
+            </div>
+        </div>
+
+        <div class="home-sci">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.linkedin.com/in/harsh-punjabi-266770217/" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
+        </div>
+
+        <div class="home-imgHover">
+        </div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
+
+    <!--About Section Design -->
+
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-img">
+            <img src="https://avatars.githubusercontent.com/u/89394681?s=400&u=6f07a76ed7c927eb9b4c7c5cc41d7b8980e7399b&v=4"
+                alt="Harsh-Pic">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="about-content">
+            <h3>FrontEnd Developer </h3>
+            <p> A passionate Frontend Developer with love for crafting intuitive & visually stunning digital
+                experiences. I've spent countless hours immersed in the evolving landscape of frontend technologies.
+                From mastering the fundamentals of HTML, CSS, and Js to keeping up with cutting-edge frameworks.In this
+                fast-paced industry, I recognize the importance of continuous learning. I'm always on the lookout for
+                new tools, trends, and methodologies that can enhance my skills and broaden my horizons.
+            </p>
+        </div>
+    </section>
+
+
+    <!--Education Section Design--->
+
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span></h2>
+
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i> 2020 - 2024 </div>
+                            <h3>BTech , BIT Mesra </h3>
+                            <p>I am Final Year EEE Student at THE BIT , Mesra . Being an active member of ECE
+                                Sociey (Coding And Hardware Society), I contributed mainly in Electronics and Web
+                                Development Program for College
+                                students . </p>
+
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+
+                            <div class="year"><i class='bx bxs-calendar'></i> 2018 - 2020 </div>
+                            <h3>Kids Clob School , Jaipur</h3>
+                            <p>Completed my 11th - 12th and performed good in academics . <br> CBSE : 86%</p>
+                        </div>
+                    </div>
+
+                    <div class="education-content">
+                        <div class="content">
+
+                            <div class="year"><i class='bx bxs-calendar'></i> 2012 - 2018 </div>
+                            <h3>Ryan International School , Mumbai</h3>
+                            <p>I did my schooling from 4th to 10th here.,<br>CBSE : 87%</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="rightsection">
-                <img src="https://avatars.githubusercontent.com/u/89394681?s=400&u=6f07a76ed7c927eb9b4c7c5cc41d7b8980e7399b&v=4"
-                    alt="harsh_img">
-            </div>
-        </section>
-        <hr>
+            <div class="education-column">
+                <h3 class="title">Experience</h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
 
-        <section class="secondsection" id="about">
-            <hr>
-
-            <div class="lefpara">
-                <h1>About <span class="purple">Me</span></h1>
-                <p>Hi there! I am Harsh! I've been coding for over 4 years now. As a EEE student I've worked both with
-                    managerial(ECE Society) and technical(Coding Ninja , CAB-EEZ) companies to help build &
-                    scale their companies. Along the journey I realised my passion existed in extending help and guiding
-                    others excel and pursue their dreams in technical fields. With this passion, I have now helped
-                    hundred's of associates and subordinates around me, through online sessions on Google Meet, and also
-                    interacting in person. I always look to give back to the community in whichever way possible.
-                </p>
-
-                <div class="social">
-                    <a href="https://www.linkedin.com/in/harsh-punjabi-266770217/" target="_blank"
-                        class="fa fa-linkedin"></a>
-                    <a href="https://github.com/Harsh-Punjabi-2002" target="_blank" class="fa fa-github"></a>
-                </div>
-
-            </div>
-            <div class="rightsection">
-                <img src="images/download.png" alt="harsh_img">
-            </div>
-        </section>
-        <hr>
-
-        <section class="theirdsection" id="edu">
-            <h1><u>Eduction</u></h1>
-            <div class="row">
-                <div class="column">
-                    <h3 class="purple">10 standard</h3>
-                    <ul>
-                        <li>Ryan international School </li>
-                        <li>April 2017 - Jan 2018 </li>
-                        <li>Board Percentage - 87%</li>
-                    </ul>
-                </div>
-                <div class="column">
-                    <h3 class="purple">12 standard</h3>
-                    Kids Club School <br>
-                    April 2019 - Jan 2020 <br>
-                    Board Percentage - 86%
-                </div>
-                <div class="column">
-                    <h3 class="purple">BTECH</h3>
-                    Birla Institute Of Technology <br>
-                    Branch - Electrical And Electronics <br>
-                    November 2020 - July 2024 <br>
-                    Overall CGPA - 8.29
+                            <div class="year"><i class='bx bxs-calendar'></i> May 2023 - July 2023 </div>
+                            <h3>Summer Intern </h3>
+                            <h4>CAB-EEZ Infra Tech Pvt Ltd</h4>
+                            <p>Worked directlu under COO and CHRO , learned about various types of EV chargers and also
+                                worked on mantanence and development of companied website .
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <h1><u>Skills</u></h1>
-            <div class="row">
-                <div class="column">
-                    <h3 class="purple">Soft Skills</h3>
-                    leadership <br>
-                    listening skills <br>
-                    time management <br>
-                    problem-solving <br>
-                    empathy <br>
-                </div>
-                <div class="column">
-                    <h3 class="purple">Programming Languages</h3>
-                    C++ <br>
-                    PYTHON <br>
-                    HTML <br>
-                    CSS <br>
-                    JAVA SCRIPT <br>
-                </div>
-                <div class="column">
-                    <h3 class="purple">BTECH</h3>
-                    Birla Institute Of Technology <br>
-                    Branch - Electrical And Electronics <br>
-                    November 2020 - July 2024 <br>
-                    Overall CGPA - 8.29
-                </div>
-            </div>
-            <hr>
-        </section>
-        <!-- <hr> -->
-    </main>
 
-    <footer>
-        <div class="footer">
-            <div class="footer-first">
-                <h3>Harsh's Developer Portfolio</h3>
+
+        </div>
+    </section>
+
+
+    <!--Skills Section Design -->
+
+    <section class="skills" id="skills">
+        <h2 class="heading">
+            My <span>Skills</span>
+        </h2>
+
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS<span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>JavaScript<span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>C++ <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="footer-second"></div>
-            <div class="footer-theird"></div>
-            <div class="footer-fourth"></div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+
+                        <div class="progress">
+                            <h3>Web Design <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Web Developement<span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Figma Design<span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Content Writing<span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--Contact Section Design -->
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <span class="focus">
+
+                    </span>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" placeholder="Email Id" required>
+                    <span class="focus">
+
+                    </span>
+                </div>
+            </div>
+
+
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="number" placeholder="Mobile Number" required>
+                    <span class="focus">
+
+                    </span>
+                </div>
+
+                <div class="input-field">
+                    <input type="text" placeholder="Email Subject" required>
+                    <span class="focus">
+
+                    </span>
+                </div>
+            </div>
+
+            <div class="textarea-field">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Name" required></textarea>
+                <span class="focus"></span>
+
+            </div>
+
+            <div class="btn-box btns">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Harsh Punjabi | All Rights Reserved</p>
+
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
+
         </div>
     </footer>
 
 
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Developer', 'Problem Solver'],
-            typeSpeed: 50,
-        });
-    </script>
-</body>
+    <script src="./script.js"></script>
 </body>
 
 </html>
